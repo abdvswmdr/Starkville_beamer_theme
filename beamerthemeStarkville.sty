@@ -19,11 +19,42 @@
 % Redistributed under the terms of the LPPL license above.
 
 \usepackage[dvipsnames]{xcolor}
-\usefonttheme{serif}
+\usepackage{anyfontsize}        % Allows arbitrary font sizes
+\usepackage{animate}
+\usefonttheme{serif} 
 
-\definecolor{MSStateMaroon}{RGB}{93, 23, 37}
+% Swinburne Logo Red color
+% Hex: #ED1C2E
+% RGB: {237, 28, 46}
+
+% Swinburne Bg Red
+% Hex: #DC3545
+% RGB: {220, 53, 69}
+
+% Main Color Definitions 
+\definecolor{MSStateMaroon}{RGB} {220, 53, 69}
 \definecolor{MSStateLightGrey}{RGB}{193, 198, 200}
 \definecolor{MSStateDarkGrey}{RGB}{117, 120, 123}
+
+% ===== SIDEBAR FONT SETTINGS =====
+% (Right after color definitions, before sidebar setup)
+
+% Sidebar metadata fonts
+%%\fontsize{<size}{<line spacing>}\selectfont 
+%\setbeamerfont{title in sidebar}{size=\tiny,series=\bfseries}
+\setbeamerfont{title in sidebar}{size=\fontsize{3}{6}\selectfont,series=\bfseries}
+\setbeamerfont{author in sidebar}{size=\fontsize{3}{5}\selectfont}
+\setbeamerfont{date in sidebar}{size=\fontsize{4}{5}\selectfont}
+
+% Section/subsection fonts
+\setbeamerfont{section in sidebar}{size=\fontsize{4}{5}\selectfont,series=\bfseries}
+\setbeamerfont{subsection in sidebar}{size=\tiny}
+\setbeamerfont{subsubsection in sidebar}{size=\tiny}
+
+% Navigation symbols
+\setbeamerfont{navigation symbols}{size=\fontsize{4}{5}\selectfont}
+
+
 
 \setbeamercolor*{structure}{bg=MSStateMaroon!20,fg=MSStateMaroon}
 
@@ -52,7 +83,7 @@
 \setbeamercolor{block title example}{use=example text,fg=white,bg=structure.fg}
 \setbeamercolor{block body example}{use=extample text,fg=white,bg=structure.fg}
 
-
+% Sidebar Configuration 
 % Below source code taken from beamerouterthemesidebar.sty
 \let\beamer@storesize\@currsize
 \newdimen\beamer@sidebarwidth
@@ -61,7 +92,7 @@
 \def\beamerheadheight{\beamer@headheight}
 \usebeamerfont{frametitle}
 \beamer@sidebarwidth=3.5\baselineskip
-\beamer@headheight=2.2\baselineskip
+\beamer@headheight=1.74\baselineskip
 \reset@font
 
 \def\beamer@lefttext{left}
@@ -140,6 +171,7 @@
   \end{beamercolorbox}
 }
 
+% Section Titles in Sidebar 
 \defbeamertemplate*{section in sidebar}{sidebar theme}
 {%
   \vbox{%

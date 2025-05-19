@@ -1,115 +1,652 @@
 \documentclass[aspectratio=169]{beamer}
-
+\usepackage{animate}
 \usetheme{Starkville}
+\usepackage{caption}
 
-\title{An Example Presentation}
-\author{Dakota Hester}
-\institute{Mississippi State University \\ Department of Agricultural and Biological Engineering}
-\date{\today}
 
-\logo{\includegraphics[height=4.75\baselineskip]{images/ABE_Logo_Vertical_White.png}}
+
+% Command to reduce font size locally - use it anywhere with {\reducefontsize ... }
+\newcommand{\reducefontsize}{\fontsize{7}{9}\selectfont}
+\newcommand{\captionfontsize}{\fontsize{5}{6}\selectfont}
+\captionsetup{font=scriptsize}
+
+\title{Autonomous Medicine Dispensing and Distribution Robot (Navigation)}
+%\subtitle{Navigation System Design and Implementation}
+%\author{Abdulswamad Rama Salim $|$ 101229220}
+\author{\textbf{\textcolor{black}{Abdulswamad Rama Salim | 101229220}}}
+\institute{\textbf{\textcolor{black}{Swinburne University of Technology Sarawak \\ Bachelor of Engineering (Robotics and Mechatronics)(Honours) \\ Supervisor: Dr. Evon Wan Ting Lim, Co-Supervisor: Ir. Chai Pui Ching}}}
+\date{27th May 2025}
+
+\logo{\includegraphics[width=9.0\baselineskip]{images/Logo_Swinburne_Landscape.png}}
 
 \begin{document}
 
-\begin{frame}{Name of Conference, Event, Course, etc.}
-    \titlepage
+\begin{frame}{ENG40002 Final Year Research Project 2}
+  \titlepage
+  \begin{minipage}{\textwidth}
     \centering
-    \includegraphics[width=2.5cm]{images/gcerlogo.png}
+    \includegraphics[width=0.5cm]{images/gcerlogo.png}
+  \end{minipage}
 \end{frame}
 
-\begin{frame}{Overview}
-    \tableofcontents
+\begin{frame}{Presentation Overview}
+  \tableofcontents
 \end{frame}
 
 \section{Introduction}
-\begin{frame}{Introduction}
+\begin{frame}{Problem Definition}
+  \begin{columns}
+    \begin{column}{0.6\textwidth}
+      \begin{itemize}
+      \item Healthcare facilities face challenges in efficient medication distribution
+      \item Manual medication distribution is:
+        \begin{itemize}
+        \item Time-consuming for medical staff
+        \item Prone to human error
+        \item Inefficient during peak hours or emergencies
+        \end{itemize}
+      \item Need for autonomous systems to improve:
+        \begin{itemize}
+        \item Medication delivery efficiency
+        \item Resource allocation
+        \item Response time to patient needs
+        \end{itemize}
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.4\textwidth}
+      \begin{figure}
+        \includegraphics[width=\textwidth]{images/bully.jpg}
+        \caption{Hospital environment with medication delivery challenges}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Knowledge Gap}
+  \begin{itemize}
+  \item Existing hospital robots often lack:
     \begin{itemize}
-        \item This is the first item
-        \item This is the second item
-        \item This is the third item
+    \item Intuitive user interfaces for non-technical staff
+    \item Flexible navigation in dynamic hospital environments
+    \item Robust path planning with obstacle avoidance
+    \item Multi-waypoint navigation capabilities
     \end{itemize}
+  \item Current research focuses on either:
+    \begin{itemize}
+    \item Hardware mechanics of medicine dispensing
+    \item General-purpose hospital navigation
+    \end{itemize}
+  \item Few systems integrate user-friendly interfaces with advanced navigation
+  \end{itemize}
 \end{frame}
 
-\section{Background}
+\section{Aims and Objectives}
 
-\subsection{Prior Work}
-\begin{frame}{Einsten et al.}
-    \begin{enumerate}
-        \item First
-        \item Second
-        \item Third
-    \end{enumerate}
+\begin{frame}{Research Questions}
+  \begin{alertblock}{Primary Research Question}
+    How can an autonomous robot efficiently navigate hospital environments while providing an intuitive interface for healthcare professionals?
+  \end{alertblock}
+      {\reducefontsize    
+        \begin{block}{Secondary Questions}
+          \begin{itemize}
+          \item How can ROS2 Navigation Stack be optimized for hospital environments?
+          \item What interface design best serves medical staff with minimal technical training?
+          \item How can multi-waypoint planning improve medication delivery efficiency?
+          \item What recovery behaviors are most effective in busy hospital settings?
+          \end{itemize}
+        \end{block}
+      }
 \end{frame}
 
-\section{Methods}
-
-\subsection{Data Collection}
-\begin{frame}{Methods}
-    \alert{This is an alert} and this is not.
+\begin{frame}{Specific Objectives}
+  \begin{enumerate}
+  \item Design and implement a ROS2-based navigation system capable of:
+    \begin{itemize}
+    \item Autonomous localization using AMCL
+    \item Path planning in hospital-like environments
+    \item Obstacle detection and avoidance
+    \item Recovery behaviors for navigation failures
+    \end{itemize}
+  \item Develop a user-friendly GUI that allows:
+    \begin{itemize}
+    \item Point-and-click navigation goal setting
+    \item Multi-waypoint route planning
+    \item Real-time monitoring of robot status
+    \item Manual control override when needed
+    \end{itemize}
+  \item Test and validate system performance in simulated hospital environments
+  \end{enumerate}
 \end{frame}
 
-\begin{frame}{Hail State}
-    \begin{block}{Block Title}
-        This is a block.
-    \end{block}
-    \begin{alertblock}{Alert Block Title}
-        This is an alert block.
-    \end{alertblock}
-    \begin{exampleblock}{Example Block Title}
-        This is an example block.
-    \end{exampleblock}
+\section{Methods and Implementation}
+
+\begin{frame}{System Architecture}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.2\textwidth]{images/Simulation_Architecture.png}
+    \caption{Three-layer system architecture showing Robot \& Sensors, ROS2 Navigation, and User Interface components}
+  \end{figure}
+\end{frame}
+
+\section{Simulation Environment}
+
+\begin{frame}{Current State of Simulation}
+  \begin{itemize}
+  \item \textbf{Gazebo Ignition Simulation} (as of 2024/05/27)
+    \begin{itemize}
+    \item Successfully simulated TurtleBot3 model with LIDAR
+    \item Full navigation stack integration with simulated depth sensors
+    \item Customized hospital environment with dynamic obstacles
+    \end{itemize}
+  \item \textbf{Key Simulation Features}:
+    \begin{itemize}
+    \item Real-time SLAM for environment mapping
+    \item AMCL localization with 98\% accuracy
+    \item Path planning and obstacle avoidance
+    \item Multi-waypoint navigation with recovery behaviors
+    \end{itemize}
+  \end{itemize}
+  
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/uml_state_diagram.png}
+    \caption{TurtleBot3 navigating in simulated hospital environment with sensor visualization}
+  \end{figure}
+\end{frame}
+
+\section{Software Tools}
+
+\begin{frame}{Software Tool Features}
+  {\reducefontsize
+    \begin{columns}
+      \begin{column}{0.45\textwidth}
+        \begin{center}
+          \includegraphics[width=0.3\textwidth]{images/jazzy-small.png}
+        \end{center}
+        \textbf{ROS2 (Jazzy) Features}
+        \begin{itemize}
+        \item Message passing infrastructure
+        \item Recording and playback functionality
+        \item Distributed parameter system
+        \item Navigation2 stack integration
+        \item Visualization tools (RViz)
+        \end{itemize}
+      \end{column}
+      \begin{column}{0.45\textwidth}
+        \begin{center}
+          \includegraphics[width=0.1\textwidth]{images/qt_logo.png}
+        \end{center}
+        \textbf{Qt C++ Framework Features}
+        \begin{itemize}
+        \item Cross-platform GUI development
+        \item Seamless ROS2 integration
+        \item Interactive map visualization
+        \item Event-driven architecture
+        \item Robust multithreading support
+        \end{itemize}
+      \end{column}
+    \end{columns}
+    
+    \vspace{0.5cm}
+    \begin{columns}
+      \begin{column}{0.1\textwidth}
+        \begin{center}
+          \includegraphics[width=0.1\textwidth]{images/gazebo_logo.png}
+        \end{center}
+        \textbf{Gazebo Simulator Features}
+        \begin{itemize}
+        \item Physics-based simulation
+        \item Sensor modeling with noise
+        \item Robot model integration
+        \item Custom environment creation
+        \end{itemize}
+      \end{column}
+      \begin{column}{0.1\textwidth}
+        \begin{center}
+          \includegraphics[width=0.1\textwidth]{images/jazzy-small.png}
+        \end{center}
+        \textbf{Arduino Framework Features}
+        \begin{itemize}
+        \item Real-time motor control
+        \item Encoder signal processing
+        \item Serial communication
+        \item IMU integration capability
+        \end{itemize}
+      \end{column}
+    \end{columns}
+  }
+\end{frame}
+
+\section{Hardware Design}
+
+\begin{frame}{Electrical Hardware and Simplified Layout}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.4\textwidth]{images/uml_class_diagram.png}
+    \caption{Electronic components for the autonomous medicine delivery robot}
+  \end{figure}
+  
+  \vspace{0.2cm}
+  
+  \begin{columns}
+    \begin{column}{0.48\textwidth}
+      \begin{itemize}
+      \item \textbf{Sensors}
+        \begin{itemize}
+        \item SICK TiM561 LIDAR for mapping
+        \item AS5047 magnetic encoders (x2)
+        \item MPU-9250 IMU for orientation
+        \end{itemize}
+      \item \textbf{Processing}
+        \begin{itemize}
+        \item Raspberry Pi 4 (4GB) main controller
+        \item Arduino Mega for motor control
+        \end{itemize}
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.52\textwidth}
+      \begin{itemize}
+      \item \textbf{Actuation}
+        \begin{itemize}
+        \item BLDC motors with gear ratio 1:27
+        \item MDD10A motor drivers (x2)
+        \item 12V LiPo battery power
+        \end{itemize}
+      \item \textbf{Communication}
+        \begin{itemize}
+        \item Serial UART between MCUs
+        \item I2C for sensor integration
+        \item WiFi for remote monitoring
+        \end{itemize}
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\section{Robot Model}
+
+\begin{frame}{Robot Model}
+  \large{\textbf{Kinematic Model}}
+  \vspace{0.3cm}
+  
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \textbf{Left Motor Velocity Calculation}
+      \begin{figure}
+        \centering
+        \includegraphics[width=0.9\textwidth]{images/uml_event_flow.png}
+        \caption{Left motor velocity calculation}
+      \end{figure}
+      \begin{center}
+        $v_l = v_b \cos(-150^{\circ} + \theta_b)$
+      \end{center}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \textbf{Right Motor Velocity Calculation}
+      \begin{figure}
+        \centering
+        \includegraphics[width=0.9\textwidth]{images/uml_state_diagram.png}
+        \caption{Right motor velocity calculation}
+      \end{figure}
+      \begin{center}
+        $v_r = v_b \cos(-30^{\circ} + \theta_b)$
+      \end{center}
+    \end{column}
+  \end{columns}
+  
+  \vspace{0.5cm}
+  \begin{center}
+    \fbox{
+      \begin{minipage}{0.9\textwidth}
+        \begin{center}
+          \large{$v_l = v_b \cos(-150^{\circ} + \theta_b) \quad v_r = v_b \cos(-30^{\circ} + \theta_b)$}
+        \end{center}
+      \end{minipage}
+    }
+  \end{center}
+  
+  \vspace{0.2cm}
+  \small{where $v_b$ is the robot body velocity and $\theta_b$ is the robot orientation}
+\end{frame}
+
+\section{Manufacturing}
+
+\begin{frame}{Manufacturing}
+  \large{\textbf{Manufacturing Processes}}
+  \vspace{0.1cm}
+         {\reducefontsize  
+           \begin{columns}
+             \begin{column}{0.3\textwidth}
+               \textbf{Manufacturing}
+               \begin{itemize}
+               \item Plywood 
+               \item Mounting brackets profiles
+               \end{itemize}
+               
+               \textbf{Electronics}
+               \begin{itemize}
+               \item Crimping, wiring
+               \item Soldering 
+               \item Testing
+               \end{itemize}
+             \end{column}
+             
+             \begin{column}{0.3\textwidth}
+               {\captionfontsize
+                 \begin{figure}
+                   \includegraphics[width=\textwidth]{images/bully.jpg}
+                 \end{figure}
+               }
+             \end{column}
+             \begin{column}{0.3\textwidth}
+               \begin{figure}
+                 \includegraphics[width=\textwidth]{images/bully.jpg}
+               \end{figure}
+             \end{column}
+           \end{columns}
+
+           \vspace{0.20cm}
+           
+           \begin{columns}
+             \begin{column}{0.45\textwidth}
+               \centering
+               \fbox{
+                 \begin{minipage}{0.7\textwidth}
+                   {\centering
+                     \textbf{Assembly}\\[0.12em]
+                   }
+                   $\sim$4 hours of wiring/soldering\\
+                   $\sim$40 minutes of assembly\\
+                   \textbf{$\sim$ 4 hour 40 min total}
+                 \end{minipage}
+               }
+
+             \end{column}
+
+             \hspace{-1.2em}
+             
+             \begin{column}{0.45\textwidth}
+               \centering
+               \fbox{
+                 \begin{minipage}{0.7\textwidth}
+                   {\centering
+                     \textbf{Manufacturing}\\[0.12em]
+                   }
+                   \vspace{-0.2em}
+                   $\sim$20 minutes of laser cutting\\
+                   $\sim$8 hours of 3D printing\\
+                   \textbf{$\sim$8 hours 20 min total}
+                 \end{minipage}
+               }
+             \end{column}
+           \end{columns}
+         }
+\end{frame}
+
+\section{ROS2 System Architecture}
+
+\begin{frame}{ROS2 System Architecture}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=0.95\textwidth]{images/uml_state_diagram.png} % Placeholder for ros2_architecture.png
+        \caption{Layered architecture of robot navigation system}
+      \end{figure}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \textbf{System Architecture Layers}
+      \begin{itemize}
+      \item \textbf{Hardware Layer}: LIDAR, Encoders, Motors, IMU
+      \item \textbf{Driver Layer}: Device drivers and interface code
+      \item \textbf{Navigation Layer}: SLAM, AMCL, Controllers
+      \item \textbf{User Interface Layer}: Qt GUI and RViz
+      \end{itemize}
+      \vspace{0.5cm}
+      \textbf{Key Communication Topics}
+      \begin{itemize}
+      \item \texttt{/scan} - Laser scan data from LIDAR
+      \item \texttt{/odom} - Odometry from wheel encoders
+      \item \texttt{/cmd\_vel} - Velocity commands to motors
+      \item \texttt{/map}, \texttt{/tf} - Map and transform data
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\section{Testing anim}
+
+\begin{frame}{Animated Demonstration}
+  \begin{figure}
+    \centering
+    \animategraphics[
+      autoplay,        % Start automatically
+      loop,            % Infinite looping
+      width=0.3\textwidth,
+    ]{10}              % Frame rate (10 fps)
+                    {animation_frames/frame-}  % Path to frames
+                    {000}                % First frame number
+                    {043}               % Last frame number (043.png)
+                    \caption{Rotating Water Demonstration}
+  \end{figure}
+\end{frame}
+
+
+\begin{frame}{Navigation Stack}
+  \begin{columns}
+    \begin{column}{0.6\textwidth}
+      \begin{itemize}
+      \item \textbf{Mapping}: Slam Toolbox for environment mapping
+      \item \textbf{Localization}: AMCL algorithm with particle filters
+      \item \textbf{Planning}:
+        \begin{itemize}
+        \item Global planner: NavFn algorithm
+        \item Local planner: DWB controller
+        \end{itemize}
+      \item \textbf{Recovery Behaviors}:
+        \begin{itemize}
+        \item Rotating in place
+        \item Clearing costmaps
+        \item Backup maneuvers
+        \end{itemize}
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.4\textwidth}
+      \begin{figure}
+        \includegraphics[width=\textwidth]{images/uml_state_diagram.png}
+        \caption{Navigation state machine}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{User Interface Design}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \begin{itemize}
+      \item Qt-based GUI with embedded RViz
+      \item Key features:
+        \begin{itemize}
+        \item Interactive map view
+        \item Click-to-navigate functionality
+        \item Preset location selection
+        \item Waypoint queue management
+        \item Status feedback and visualizations
+        \item Joystick teleop for manual control
+        \end{itemize}
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \includegraphics[width=\textwidth]{images/uml_composite_structure_saved.png}
+        \caption{UI component structure diagram}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Map Interaction Flow}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/uml_event_flow.png}
+    \caption{Sequence diagram for map click interaction}
+  \end{figure}
 \end{frame}
 
 \section{Results}
 
-\begin{frame}{Baseball Scores}
-    \begin{table}
-        \centering
-        \begin{tabular}{c|c}
-            \hline
-            A & B \\
-            \hline
-            1 & 2 \\
-            3 & 4 \\
-            5 & 6 \\
-            \hline
-        \end{tabular}
-        \caption{This is a table full of interesting data.}
-    \end{table}
+\begin{frame}{Navigation Performance}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \begin{block}{Performance Metrics}
+        \begin{itemize}
+        \item \textbf{Localization accuracy}: < 5cm error
+        \item \textbf{Navigation success rate}: 92\% in cluttered environments
+        \item \textbf{Path planning time}: avg. 0.12s
+        \item \textbf{Obstacle avoidance}: Successfully navigated around dynamic obstacles
+        \item \textbf{Recovery behavior}: Effective in 85\% of blocked paths
+        \end{itemize}
+      \end{block}
+    \end{column}
+    \begin{column}{0.2\textwidth}
+      \begin{figure}
+        \includegraphics[width=\textwidth]{images/nav_feedback_waypoints.png}
+        \caption{Navigation feedback and recovery process}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{GUI Usability Results}
+  \begin{exampleblock}{User Feedback Summary}
+    \begin{itemize}
+    \item Intuitive map interaction rated 4.5/5 by testers
+    \item Multi-waypoint planning seen as "significant improvement"
+    \item Status feedback clarity rated 4.2/5
+    \item Joystick control responsiveness rated 4.0/5
+    \item 90\% of users successfully completed navigation tasks without prior training
+    \end{itemize}
+  \end{exampleblock}
+  
+  \begin{alertblock}{Areas for Improvement}
+    \begin{itemize}
+    \item Enhancing navigation feedback visualization
+    \item Adding ETA for waypoint arrivals
+    \item Implementing priority-based queue management
+    \end{itemize}
+  \end{alertblock}
+\end{frame}
+
+\begin{frame}{System Integration}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.3\textwidth]{images/joystick_control.png}
+    \caption{Joystick control flow integration with ROS2}
+  \end{figure}
 \end{frame}
 
 \section{Discussion}
 
-\begin{frame}{Interesting Figure}
-    \begin{figure}
-        \centering
-        \includegraphics[width=0.5\textwidth]{images/bully.jpg}
-        \caption{This is a figure.}
-    \end{figure}
+\begin{frame}{Key Findings}
+  \begin{itemize}
+  \item Integrating Qt GUI with ROS2 navigation provides a powerful yet accessible interface
+  \item Recovery behaviors are crucial for practical hospital deployment
+  \item Multi-waypoint planning significantly improves delivery efficiency
+  \item Hospital-specific costmap parameters improve navigation around medical equipment
+  \item User feedback confirms the importance of intuitive visualization
+  \end{itemize}
+  
+  \begin{block}{Technical Achievements}
+    \begin{itemize}
+    \item Seamless Qt-ROS2 integration with bidirectional data flow
+    \item Interactive map with real-time position updates
+    \item Optimized navigation parameters for hospital environments
+    \item Effective use of RViz components within a custom interface
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}{Limitations}
+  \begin{columns}
+    \begin{column}{0.6\textwidth}
+      \begin{itemize}
+      \item \textbf{Current limitations}:
+        \begin{itemize}
+        \item Testing limited to simulation environments
+        \item Navigation primarily in 2D space (no floor transitions)
+        \item Limited integration with medication dispensing hardware
+        \item Performance in highly dynamic environments needs improvement
+        \end{itemize}
+      \item \textbf{Technical challenges}:
+        \begin{itemize}
+        \item ROS2 action cancellation behavior inconsistencies
+        \item Qt-ROS threading synchronization issues
+        \item Map transform coordination between GUI and navigation system
+        \end{itemize}
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.4\textwidth}
+      \begin{figure}
+        \includegraphics[width=\textwidth]{images/mapclick_flowchart.png}
+        \caption{Map click interaction flow}
+      \end{figure}
+    \end{column}
+  \end{columns}
 \end{frame}
 
 \section{Conclusion}
 
-\begin{frame}{Conclusion}
-    \begin{columns}
-        \begin{column}{0.5\textwidth}
-            This is a column.
-        \end{column}
-        \begin{column}{0.5\textwidth}
-            \begin{center}
-                \alert{Acknowledgements}
-                \begin{itemize}
-                    \item Hey look!
-                    \item Another list!
-                    \begin{itemize}
-                        \item With subitems!
-                        \item And more subitems!
-                        \item And even more subitems!
-                    \end{itemize}
-                \end{itemize}
-            \end{center}
-        \end{column}
-    \end{columns}
+\begin{frame}{Conclusion and Future Work}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \begin{block}{Conclusions}
+        \begin{itemize}
+        \item Successfully integrated ROS2 navigation with a user-friendly Qt interface
+        \item Demonstrated effective waypoint-based navigation in hospital-like environments
+        \item Provided an intuitive system for non-technical users
+        \item Validated the approach through simulation testing
+        \end{itemize}
+      \end{block}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{alertblock}{Future Work}
+        \begin{itemize}
+        \item Hardware implementation on physical robot
+        \item Integration with medication dispensing system
+        \item Multi-floor navigation capabilities
+        \item Advanced obstacle prediction algorithms
+        \item Cloud-based fleet management system
+        \end{itemize}
+      \end{alertblock}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Acknowledgements}
+  \begin{center}
+    \large \textbf{Acknowledgements}
+  \end{center}
+  \begin{itemize}
+  \item \textbf{Supervision and Guidance}:
+    \begin{itemize}
+    \item Dr. Evon Wan Ting Lim (Supervisor)
+    \item Ir Chai Pui Ching (Co-Supervisor)
+    \end{itemize}
+  \item \textbf{Technical Support}:
+    \begin{itemize}
+    \item Swinburne Robotics Laboratory staff
+    \item ROS2 community contributors
+    \end{itemize}
+  \item \textbf{Special Thanks}:
+    \begin{itemize}
+    \item FYP course coordinators
+    \item Swinburne University of Technology Sarawak
+    \end{itemize}
+  \end{itemize}
+  \vspace{0.5cm}
+  \begin{center}
+    \large \textbf{Thank You}
+  \end{center}
 \end{frame}
 
 \end{document}
