@@ -6,3 +6,9 @@
 \beamer@sectionintoc {6}{Hardware Design}{10}{0}{6}
 \beamer@sectionintoc {7}{Robot Model}{11}{0}{7}
 \beamer@sectionintoc {8}{Manufacturing}{12}{0}{8}
+\beamer@sectionintoc {9}{ROS2 System Architecture}{13}{0}{9}
+\beamer@sectionintoc {10}{Testing anim}{14}{0}{10}
+\beamer@sectionintoc {11}{Results}{18}{0}{11}
+\beamer@sectionintoc {12}{Discussion}{21}{0}{12}
+\beamer@sectionintoc {13}{Conclusion}{23}{0}{13}
+\beamer@sectionintoc {14}{Questions and Answers}{25}{0}{14}
