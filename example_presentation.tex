@@ -13,7 +13,7 @@
 \title{Autonomous Medicine Dispensing and Distribution Robot (Navigation)}
 %\subtitle{Navigation System Design and Implementation}
 %\author{Abdulswamad Rama Salim $|$ 101229220}
-\author{\textbf{\textcolor{black}{Abdulswamad Rama Salim | 101229220}}}
+\author{\textbf{\textcolor{black}{Abdulswamad Rama Salim   |  101229220}}}
 \institute{\textbf{\textcolor{black}{Swinburne University of Technology Sarawak \\[0.1cm] 
 Bachelor of Engineering (Robotics and Mechatronics) (Honours) \\[0.1cm]
 Supervisor:\ Dr.\ Evon Wan Ting Lim, Co-Supervisor: Ir.\ Chai Pui Ching}}}
@@ -367,6 +367,55 @@ Supervisor:\ Dr.\ Evon Wan Ting Lim, Co-Supervisor: Ir.\ Chai Pui Ching}}}
 	\small{where $v_b$ is the robot body velocity and $\theta_b$ is the robot orientation}
 \end{frame}
 
+\section{Local and Global Planners}
+
+\begin{frame}{Robot Model}
+	\large{\textbf{Kinematic Model}}
+	\vspace{0.3cm}
+
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+      {\reducefontsize%
+			\textbf{Left Motor Velocity Calculation}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.5\textwidth]{images/uml_event_flow.png}
+				\caption{Left motor velocity calculation}
+			\end{figure}
+			\begin{center}
+				$v_l = v_b \cos(-150^{\circ} + \theta_b)$
+			\end{center}
+      }
+		\end{column}
+		\begin{column}{0.5\textwidth}
+      {\reducefontsize%
+			\textbf{Right Motor Velocity Calculation}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.5\textwidth]{images/uml_state_diagram.png}
+				\caption{Right motor velocity calculation}
+			\end{figure}
+			\begin{center}
+				$v_r = v_b \cos(-30^{\circ} + \theta_b)$
+			\end{center}
+      }
+		\end{column}
+	\end{columns}
+
+	\vspace{0.5cm}
+	\begin{center}
+		\fbox{
+			\begin{minipage}{0.9\textwidth}
+				\begin{center}
+					\large{$v_l = v_b \cos(-150^{\circ} + \theta_b) \quad v_r = v_b \cos(-30^{\circ} + \theta_b)$}
+				\end{center}
+			\end{minipage}
+		}
+	\end{center}
+
+\end{frame}
+
+
 \section{Manufacturing}
 
 \begin{frame}{Manufacturing}
@@ -411,13 +460,14 @@ Supervisor:\ Dr.\ Evon Wan Ting Lim, Co-Supervisor: Ir.\ Chai Pui Ching}}}
 		\begin{columns}
 			\begin{column}{0.45\textwidth}
 				\centering
+        \setlength{\fboxrule}{1.2pt}
 				\fbox{
 					\begin{minipage}{0.6\textwidth}
 						{\centering
               \underline{\textbf{Assembly}}\\[0.25em]
                   }
-						$\sim$4 hours of wiring/soldering\\
-						$\sim$40 minutes of assembly\\
+						$\sim$ 4 hours of wiring/soldering\\
+						$\sim$ 40 minutes of assembly\\
 						\textbf{$\sim$ 4 hour 40 min total}
 					\end{minipage}
 				}
@@ -427,15 +477,16 @@ Supervisor:\ Dr.\ Evon Wan Ting Lim, Co-Supervisor: Ir.\ Chai Pui Ching}}}
 
 			\begin{column}{0.45\textwidth}
 				\centering
+        \setlength{\fboxrule}{1.2pt}
 				\fbox{
 					\begin{minipage}{0.6\textwidth}
 						{\centering
 							\underline{\textbf{Manufacturing}}\\[0.25em]
 						}
 						%$\vspace{-0.2em}
-						$\sim$20 minutes of laser cutting\\
-						$\sim$8 hours of 3D printing\\
-						\textbf{$\sim$8 hours 20 min total}
+						$\sim$ 20 minutes of laser cutting\\
+						$\sim$ 8 hours of 3D printing\\
+						\textbf{$\sim$ 8 hours 20 min total}
 					\end{minipage}
 				}
 			\end{column}
@@ -474,6 +525,8 @@ Supervisor:\ Dr.\ Evon Wan Ting Lim, Co-Supervisor: Ir.\ Chai Pui Ching}}}
 	\end{columns}
 \end{frame}
 
+
+\begin{comment}
 \section{Testing anim}
 
 \begin{frame}{Animated Demonstration}
@@ -490,7 +543,7 @@ Supervisor:\ Dr.\ Evon Wan Ting Lim, Co-Supervisor: Ir.\ Chai Pui Ching}}}
 		\caption{Rotating Water Demonstration}
 	\end{figure}
 \end{frame}
-
+\end{comment}
 
 \begin{frame}{Navigation Stack}
 	\begin{columns}
@@ -559,6 +612,7 @@ Supervisor:\ Dr.\ Evon Wan Ting Lim, Co-Supervisor: Ir.\ Chai Pui Ching}}}
 	\begin{columns}
 		\begin{column}{0.5\textwidth}
 			\begin{block}{Performance Metrics}
+        {\reducefontsize%
 				\begin{itemize}
 					\item \textbf{Localization accuracy}: < 5cm error
 					\item \textbf{Navigation success rate}: 92\% in cluttered environments
@@ -566,6 +620,7 @@ Supervisor:\ Dr.\ Evon Wan Ting Lim, Co-Supervisor: Ir.\ Chai Pui Ching}}}
 					\item \textbf{Obstacle avoidance}: Successfully navigated around dynamic obstacles
 					\item \textbf{Recovery behavior}: Effective in 85\% of blocked paths
 				\end{itemize}
+        }
 			\end{block}
 		\end{column}
 		\begin{column}{0.2\textwidth}

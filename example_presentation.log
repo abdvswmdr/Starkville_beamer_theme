@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.1.31)  19 MAY 2025 11:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.1.31)  19 MAY 2025 12:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -704,7 +704,6 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring OFF on input line 24.
- (./example_presentation.out) (./example_presentation.out)
 \@outlinefile=\write5
 \openout5 = `example_presentation.out'.
 
@@ -766,7 +765,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (./example_presentation.nav)
-<images/Logo_Swinburne_Landscape.png, id=69, 4015.0pt x 2007.5pt>
+<images/Logo_Swinburne_Landscape.png, id=13, 4015.0pt x 2007.5pt>
 File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
 Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 24.
@@ -775,7 +774,7 @@ File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
 Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 32.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
-<images/gcerlogo.png, id=83, 654.94687pt x 487.8225pt>
+<images/gcerlogo.png, id=27, 654.94687pt x 487.8225pt>
 File: images/gcerlogo.png Graphic file (type png)
 <use images/gcerlogo.png>
 Package pdftex.def Info: images/gcerlogo.png  used on input line 32.
@@ -805,19 +804,20 @@ File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
 Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 36.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
- (./example_presentation.toc)
+
+No file example_presentation.toc.
 File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
 Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 36.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
- [2
+[2
 
 ]
 File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
 Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 65.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
-<images/bully.jpg, id=205, 1606.0pt x 1003.75pt>
+<images/bully.jpg, id=135, 1606.0pt x 1003.75pt>
 File: images/bully.jpg Graphic file (type jpg)
 <use images/bully.jpg>
 Package pdftex.def Info: images/bully.jpg  used on input line 65.
@@ -866,7 +866,7 @@ File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
 Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 131.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
-<images/Simulation_Architecture.png, id=398, 781.9614pt x 450.2421pt>
+<images/Simulation_Architecture.png, id=334, 781.9614pt x 450.2421pt>
 File: images/Simulation_Architecture.png Graphic file (type png)
 <use images/Simulation_Architecture.png>
 Package pdftex.def Info: images/Simulation_Architecture.png  used on input line 131.
@@ -890,7 +890,7 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 188.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <5> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 188.
-<images/uml_state_diagram.png, id=441, 687.2877pt x 362.0727pt>
+<images/uml_state_diagram.png, id=380, 687.2877pt x 362.0727pt>
 File: images/uml_state_diagram.png Graphic file (type png)
 <use images/uml_state_diagram.png>
 Package pdftex.def Info: images/uml_state_diagram.png  used on input line 188.
@@ -906,27 +906,27 @@ File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
 Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 272.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
-<images/jazzy-small.png, id=484, 54.2025pt x 49.50494pt>
+<images/jazzy-small.png, id=425, 54.2025pt x 49.50494pt>
 File: images/jazzy-small.png Graphic file (type png)
 <use images/jazzy-small.png>
 Package pdftex.def Info: images/jazzy-small.png  used on input line 272.
 (pdftex.def)             Requested size: 21.82625pt x 19.93456pt.
-<images/qt_logo.png, id=485, 224.84pt x 160.6pt>
+<images/qt_logo.png, id=426, 224.84pt x 160.6pt>
 File: images/qt_logo.png Graphic file (type png)
 <use images/qt_logo.png>
 Package pdftex.def Info: images/qt_logo.png  used on input line 272.
 (pdftex.def)             Requested size: 21.82625pt x 15.58798pt.
-<images/gazebo_logo.png, id=486, 301.125pt x 301.125pt>
+<images/gazebo_logo.png, id=427, 301.125pt x 301.125pt>
 File: images/gazebo_logo.png Graphic file (type png)
 <use images/gazebo_logo.png>
 Package pdftex.def Info: images/gazebo_logo.png  used on input line 272.
 (pdftex.def)             Requested size: 16.3701pt x 16.36664pt.
-<images/arduino_logo.png, id=487, 722.7pt x 491.8375pt>
+<images/arduino_logo.png, id=428, 722.7pt x 491.8375pt>
 File: images/arduino_logo.png Graphic file (type png)
 <use images/arduino_logo.png>
 Package pdftex.def Info: images/arduino_logo.png  used on input line 272.
 (pdftex.def)             Requested size: 16.3701pt x 11.13716pt.
-<images/rviz_logo.png, id=488, 401.5pt x 260.975pt>
+<images/rviz_logo.png, id=429, 401.5pt x 260.975pt>
 File: images/rviz_logo.png Graphic file (type png)
 <use images/rviz_logo.png>
 Package pdftex.def Info: images/rviz_logo.png  used on input line 272.
@@ -942,7 +942,7 @@ File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
 Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 318.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
-<images/uml_class_diagram.png, id=534, 622.2447pt x 535.5207pt>
+<images/uml_class_diagram.png, id=476, 622.2447pt x 535.5207pt>
 File: images/uml_class_diagram.png Graphic file (type png)
 <use images/uml_class_diagram.png>
 Package pdftex.def Info: images/uml_class_diagram.png  used on input line 318.
@@ -962,7 +962,7 @@ File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
 Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 368.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
-<images/uml_event_flow.png, id=576, 665.6067pt x 506.6127pt>
+<images/uml_event_flow.png, id=521, 665.6067pt x 506.6127pt>
 File: images/uml_event_flow.png Graphic file (type png)
 <use images/uml_event_flow.png>
 Package pdftex.def Info: images/uml_event_flow.png  used on input line 368.
@@ -984,464 +984,509 @@ Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line
  <./images/uml_event_flow.png>]
 File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
-Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 444.
+Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 416.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
-File: images/bully.jpg Graphic file (type jpg)
-<use images/bully.jpg>
-Package pdftex.def Info: images/bully.jpg  used on input line 444.
-(pdftex.def)             Requested size: 116.4159pt x 72.75085pt.
-File: images/bully.jpg Graphic file (type jpg)
-<use images/bully.jpg>
-Package pdftex.def Info: images/bully.jpg  used on input line 444.
-(pdftex.def)             Requested size: 116.4159pt x 72.75085pt.
+File: images/uml_event_flow.png Graphic file (type png)
+<use images/uml_event_flow.png>
+Package pdftex.def Info: images/uml_event_flow.png  used on input line 416.
+(pdftex.def)             Requested size: 90.94783pt x 69.21689pt.
+File: images/uml_state_diagram.png Graphic file (type png)
+<use images/uml_state_diagram.png>
+Package pdftex.def Info: images/uml_state_diagram.png  used on input line 416.
+(pdftex.def)             Requested size: 90.94783pt x 47.91086pt.
 File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
-Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 444.
+Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 416.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
  [12
 
 ]
 File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
-Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 475.
+Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 495.
+(pdftex.def)             Requested size: 63.0pt x 31.48962pt.
+File: images/bully.jpg Graphic file (type jpg)
+<use images/bully.jpg>
+Package pdftex.def Info: images/bully.jpg  used on input line 495.
+(pdftex.def)             Requested size: 116.4159pt x 72.75085pt.
+File: images/bully.jpg Graphic file (type jpg)
+<use images/bully.jpg>
+Package pdftex.def Info: images/bully.jpg  used on input line 495.
+(pdftex.def)             Requested size: 116.4159pt x 72.75085pt.
+File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
+<use images/Logo_Swinburne_Landscape.png>
+Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 495.
+(pdftex.def)             Requested size: 63.0pt x 31.48962pt.
+ [13
+
+]
+File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
+<use images/Logo_Swinburne_Landscape.png>
+Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 526.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
 File: images/uml_state_diagram.png Graphic file (type png)
 <use images/uml_state_diagram.png>
-Package pdftex.def Info: images/uml_state_diagram.png  used on input line 475.
+Package pdftex.def Info: images/uml_state_diagram.png  used on input line 526.
 (pdftex.def)             Requested size: 172.80032pt x 91.03175pt.
 
-Overfull \vbox (63.70374pt too high) detected at line 475
+Overfull \vbox (63.70374pt too high) detected at line 526
  []
 
 File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
-Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 475.
+Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 526.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
-[13
+[14
 
 ]
+
+/home/abdvswmdr/Documents/fyp_nav/assets/Starkville_beamer_theme/example_presentation.tex:529: LaTeX Error: Environment comment undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.529 \begin{comment}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
-Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 492.
+Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 545.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
-<animation_frames/frame-000.png, id=710, 481.8pt x 481.8pt>
+<animation_frames/frame-000.png, id=705, 481.8pt x 481.8pt>
 File: animation_frames/frame-000.png Graphic file (type png)
 <use animation_frames/frame-000.png>
-Package pdftex.def Info: animation_frames/frame-000.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-000.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-000.png> <a0,fr0>
-<animation_frames/frame-001.png, id=714, 481.8pt x 481.8pt>
+<animation_frames/frame-001.png, id=709, 481.8pt x 481.8pt>
 File: animation_frames/frame-001.png Graphic file (type png)
 <use animation_frames/frame-001.png>
-Package pdftex.def Info: animation_frames/frame-001.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-001.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-001.png> <a0,fr1>
-<animation_frames/frame-002.png, id=718, 481.8pt x 481.8pt>
+<animation_frames/frame-002.png, id=713, 481.8pt x 481.8pt>
 File: animation_frames/frame-002.png Graphic file (type png)
 <use animation_frames/frame-002.png>
-Package pdftex.def Info: animation_frames/frame-002.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-002.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-002.png> <a0,fr2>
-<animation_frames/frame-003.png, id=722, 481.8pt x 481.8pt>
+<animation_frames/frame-003.png, id=717, 481.8pt x 481.8pt>
 File: animation_frames/frame-003.png Graphic file (type png)
 <use animation_frames/frame-003.png>
-Package pdftex.def Info: animation_frames/frame-003.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-003.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-003.png> <a0,fr3>
-<animation_frames/frame-004.png, id=727, 481.8pt x 481.8pt>
+<animation_frames/frame-004.png, id=721, 481.8pt x 481.8pt>
 File: animation_frames/frame-004.png Graphic file (type png)
 <use animation_frames/frame-004.png>
-Package pdftex.def Info: animation_frames/frame-004.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-004.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-004.png> <a0,fr4>
-<animation_frames/frame-005.png, id=731, 481.8pt x 481.8pt>
+<animation_frames/frame-005.png, id=725, 481.8pt x 481.8pt>
 File: animation_frames/frame-005.png Graphic file (type png)
 <use animation_frames/frame-005.png>
-Package pdftex.def Info: animation_frames/frame-005.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-005.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-005.png> <a0,fr5>
-<animation_frames/frame-006.png, id=735, 481.8pt x 481.8pt>
+<animation_frames/frame-006.png, id=729, 481.8pt x 481.8pt>
 File: animation_frames/frame-006.png Graphic file (type png)
 <use animation_frames/frame-006.png>
-Package pdftex.def Info: animation_frames/frame-006.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-006.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-006.png> <a0,fr6>
-<animation_frames/frame-007.png, id=739, 481.8pt x 481.8pt>
+<animation_frames/frame-007.png, id=733, 481.8pt x 481.8pt>
 File: animation_frames/frame-007.png Graphic file (type png)
 <use animation_frames/frame-007.png>
-Package pdftex.def Info: animation_frames/frame-007.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-007.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-007.png> <a0,fr7>
-<animation_frames/frame-008.png, id=743, 481.8pt x 481.8pt>
+<animation_frames/frame-008.png, id=737, 481.8pt x 481.8pt>
 File: animation_frames/frame-008.png Graphic file (type png)
 <use animation_frames/frame-008.png>
-Package pdftex.def Info: animation_frames/frame-008.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-008.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-008.png> <a0,fr8>
-<animation_frames/frame-009.png, id=747, 481.8pt x 481.8pt>
+<animation_frames/frame-009.png, id=741, 481.8pt x 481.8pt>
 File: animation_frames/frame-009.png Graphic file (type png)
 <use animation_frames/frame-009.png>
-Package pdftex.def Info: animation_frames/frame-009.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-009.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-009.png> <a0,fr9>
-<animation_frames/frame-010.png, id=751, 481.8pt x 481.8pt>
+<animation_frames/frame-010.png, id=745, 481.8pt x 481.8pt>
 File: animation_frames/frame-010.png Graphic file (type png)
 <use animation_frames/frame-010.png>
-Package pdftex.def Info: animation_frames/frame-010.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-010.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-010.png> <a0,fr10>
-<animation_frames/frame-011.png, id=755, 481.8pt x 481.8pt>
+<animation_frames/frame-011.png, id=749, 481.8pt x 481.8pt>
 File: animation_frames/frame-011.png Graphic file (type png)
 <use animation_frames/frame-011.png>
-Package pdftex.def Info: animation_frames/frame-011.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-011.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-011.png> <a0,fr11>
-<animation_frames/frame-012.png, id=759, 481.8pt x 481.8pt>
+<animation_frames/frame-012.png, id=753, 481.8pt x 481.8pt>
 File: animation_frames/frame-012.png Graphic file (type png)
 <use animation_frames/frame-012.png>
-Package pdftex.def Info: animation_frames/frame-012.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-012.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-012.png> <a0,fr12>
-<animation_frames/frame-013.png, id=763, 481.8pt x 481.8pt>
+<animation_frames/frame-013.png, id=757, 481.8pt x 481.8pt>
 File: animation_frames/frame-013.png Graphic file (type png)
 <use animation_frames/frame-013.png>
-Package pdftex.def Info: animation_frames/frame-013.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-013.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-013.png> <a0,fr13>
-<animation_frames/frame-014.png, id=767, 481.8pt x 481.8pt>
+<animation_frames/frame-014.png, id=761, 481.8pt x 481.8pt>
 File: animation_frames/frame-014.png Graphic file (type png)
 <use animation_frames/frame-014.png>
-Package pdftex.def Info: animation_frames/frame-014.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-014.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-014.png> <a0,fr14>
-<animation_frames/frame-015.png, id=771, 481.8pt x 481.8pt>
+<animation_frames/frame-015.png, id=765, 481.8pt x 481.8pt>
 File: animation_frames/frame-015.png Graphic file (type png)
 <use animation_frames/frame-015.png>
-Package pdftex.def Info: animation_frames/frame-015.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-015.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-015.png> <a0,fr15>
-<animation_frames/frame-016.png, id=775, 481.8pt x 481.8pt>
+<animation_frames/frame-016.png, id=769, 481.8pt x 481.8pt>
 File: animation_frames/frame-016.png Graphic file (type png)
 <use animation_frames/frame-016.png>
-Package pdftex.def Info: animation_frames/frame-016.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-016.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-016.png> <a0,fr16>
-<animation_frames/frame-017.png, id=779, 481.8pt x 481.8pt>
+<animation_frames/frame-017.png, id=773, 481.8pt x 481.8pt>
 File: animation_frames/frame-017.png Graphic file (type png)
 <use animation_frames/frame-017.png>
-Package pdftex.def Info: animation_frames/frame-017.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-017.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-017.png> <a0,fr17>
-<animation_frames/frame-018.png, id=783, 481.8pt x 481.8pt>
+<animation_frames/frame-018.png, id=777, 481.8pt x 481.8pt>
 File: animation_frames/frame-018.png Graphic file (type png)
 <use animation_frames/frame-018.png>
-Package pdftex.def Info: animation_frames/frame-018.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-018.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-018.png> <a0,fr18>
-<animation_frames/frame-019.png, id=787, 481.8pt x 481.8pt>
+<animation_frames/frame-019.png, id=781, 481.8pt x 481.8pt>
 File: animation_frames/frame-019.png Graphic file (type png)
 <use animation_frames/frame-019.png>
-Package pdftex.def Info: animation_frames/frame-019.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-019.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-019.png> <a0,fr19>
-<animation_frames/frame-020.png, id=791, 481.8pt x 481.8pt>
+<animation_frames/frame-020.png, id=785, 481.8pt x 481.8pt>
 File: animation_frames/frame-020.png Graphic file (type png)
 <use animation_frames/frame-020.png>
-Package pdftex.def Info: animation_frames/frame-020.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-020.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-020.png> <a0,fr20>
-<animation_frames/frame-021.png, id=795, 481.8pt x 481.8pt>
+<animation_frames/frame-021.png, id=789, 481.8pt x 481.8pt>
 File: animation_frames/frame-021.png Graphic file (type png)
 <use animation_frames/frame-021.png>
-Package pdftex.def Info: animation_frames/frame-021.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-021.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-021.png> <a0,fr21>
-<animation_frames/frame-022.png, id=799, 481.8pt x 481.8pt>
+<animation_frames/frame-022.png, id=793, 481.8pt x 481.8pt>
 File: animation_frames/frame-022.png Graphic file (type png)
 <use animation_frames/frame-022.png>
-Package pdftex.def Info: animation_frames/frame-022.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-022.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-022.png> <a0,fr22>
-<animation_frames/frame-023.png, id=803, 481.8pt x 481.8pt>
+<animation_frames/frame-023.png, id=797, 481.8pt x 481.8pt>
 File: animation_frames/frame-023.png Graphic file (type png)
 <use animation_frames/frame-023.png>
-Package pdftex.def Info: animation_frames/frame-023.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-023.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-023.png> <a0,fr23>
-<animation_frames/frame-024.png, id=807, 481.8pt x 481.8pt>
+<animation_frames/frame-024.png, id=801, 481.8pt x 481.8pt>
 File: animation_frames/frame-024.png Graphic file (type png)
 <use animation_frames/frame-024.png>
-Package pdftex.def Info: animation_frames/frame-024.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-024.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-024.png> <a0,fr24>
-<animation_frames/frame-025.png, id=811, 481.8pt x 481.8pt>
+<animation_frames/frame-025.png, id=805, 481.8pt x 481.8pt>
 File: animation_frames/frame-025.png Graphic file (type png)
 <use animation_frames/frame-025.png>
-Package pdftex.def Info: animation_frames/frame-025.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-025.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-025.png> <a0,fr25>
-<animation_frames/frame-026.png, id=815, 481.8pt x 481.8pt>
+<animation_frames/frame-026.png, id=809, 481.8pt x 481.8pt>
 File: animation_frames/frame-026.png Graphic file (type png)
 <use animation_frames/frame-026.png>
-Package pdftex.def Info: animation_frames/frame-026.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-026.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-026.png> <a0,fr26>
-<animation_frames/frame-027.png, id=819, 481.8pt x 481.8pt>
+<animation_frames/frame-027.png, id=813, 481.8pt x 481.8pt>
 File: animation_frames/frame-027.png Graphic file (type png)
 <use animation_frames/frame-027.png>
-Package pdftex.def Info: animation_frames/frame-027.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-027.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-027.png> <a0,fr27>
-<animation_frames/frame-028.png, id=823, 481.8pt x 481.8pt>
+<animation_frames/frame-028.png, id=817, 481.8pt x 481.8pt>
 File: animation_frames/frame-028.png Graphic file (type png)
 <use animation_frames/frame-028.png>
-Package pdftex.def Info: animation_frames/frame-028.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-028.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-028.png> <a0,fr28>
-<animation_frames/frame-029.png, id=827, 481.8pt x 481.8pt>
+<animation_frames/frame-029.png, id=821, 481.8pt x 481.8pt>
 File: animation_frames/frame-029.png Graphic file (type png)
 <use animation_frames/frame-029.png>
-Package pdftex.def Info: animation_frames/frame-029.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-029.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-029.png> <a0,fr29>
-<animation_frames/frame-030.png, id=831, 481.8pt x 481.8pt>
+<animation_frames/frame-030.png, id=825, 481.8pt x 481.8pt>
 File: animation_frames/frame-030.png Graphic file (type png)
 <use animation_frames/frame-030.png>
-Package pdftex.def Info: animation_frames/frame-030.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-030.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-030.png> <a0,fr30>
-<animation_frames/frame-031.png, id=835, 481.8pt x 481.8pt>
+<animation_frames/frame-031.png, id=829, 481.8pt x 481.8pt>
 File: animation_frames/frame-031.png Graphic file (type png)
 <use animation_frames/frame-031.png>
-Package pdftex.def Info: animation_frames/frame-031.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-031.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-031.png> <a0,fr31>
-<animation_frames/frame-032.png, id=839, 481.8pt x 481.8pt>
+<animation_frames/frame-032.png, id=833, 481.8pt x 481.8pt>
 File: animation_frames/frame-032.png Graphic file (type png)
 <use animation_frames/frame-032.png>
-Package pdftex.def Info: animation_frames/frame-032.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-032.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-032.png> <a0,fr32>
-<animation_frames/frame-033.png, id=843, 481.8pt x 481.8pt>
+<animation_frames/frame-033.png, id=837, 481.8pt x 481.8pt>
 File: animation_frames/frame-033.png Graphic file (type png)
 <use animation_frames/frame-033.png>
-Package pdftex.def Info: animation_frames/frame-033.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-033.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-033.png> <a0,fr33>
-<animation_frames/frame-034.png, id=847, 481.8pt x 481.8pt>
+<animation_frames/frame-034.png, id=841, 481.8pt x 481.8pt>
 File: animation_frames/frame-034.png Graphic file (type png)
 <use animation_frames/frame-034.png>
-Package pdftex.def Info: animation_frames/frame-034.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-034.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-034.png> <a0,fr34>
-<animation_frames/frame-035.png, id=851, 481.8pt x 481.8pt>
+<animation_frames/frame-035.png, id=845, 481.8pt x 481.8pt>
 File: animation_frames/frame-035.png Graphic file (type png)
 <use animation_frames/frame-035.png>
-Package pdftex.def Info: animation_frames/frame-035.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-035.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-035.png> <a0,fr35>
-<animation_frames/frame-036.png, id=855, 481.8pt x 481.8pt>
+<animation_frames/frame-036.png, id=849, 481.8pt x 481.8pt>
 File: animation_frames/frame-036.png Graphic file (type png)
 <use animation_frames/frame-036.png>
-Package pdftex.def Info: animation_frames/frame-036.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-036.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-036.png> <a0,fr36>
-<animation_frames/frame-037.png, id=859, 481.8pt x 481.8pt>
+<animation_frames/frame-037.png, id=853, 481.8pt x 481.8pt>
 File: animation_frames/frame-037.png Graphic file (type png)
 <use animation_frames/frame-037.png>
-Package pdftex.def Info: animation_frames/frame-037.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-037.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-037.png> <a0,fr37>
-<animation_frames/frame-038.png, id=863, 481.8pt x 481.8pt>
+<animation_frames/frame-038.png, id=857, 481.8pt x 481.8pt>
 File: animation_frames/frame-038.png Graphic file (type png)
 <use animation_frames/frame-038.png>
-Package pdftex.def Info: animation_frames/frame-038.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-038.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-038.png> <a0,fr38>
-<animation_frames/frame-039.png, id=867, 481.8pt x 481.8pt>
+<animation_frames/frame-039.png, id=861, 481.8pt x 481.8pt>
 File: animation_frames/frame-039.png Graphic file (type png)
 <use animation_frames/frame-039.png>
-Package pdftex.def Info: animation_frames/frame-039.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-039.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-039.png> <a0,fr39>
-<animation_frames/frame-040.png, id=871, 481.8pt x 481.8pt>
+<animation_frames/frame-040.png, id=865, 481.8pt x 481.8pt>
 File: animation_frames/frame-040.png Graphic file (type png)
 <use animation_frames/frame-040.png>
-Package pdftex.def Info: animation_frames/frame-040.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-040.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-040.png> <a0,fr40>
-<animation_frames/frame-041.png, id=875, 481.8pt x 481.8pt>
+<animation_frames/frame-041.png, id=869, 481.8pt x 481.8pt>
 File: animation_frames/frame-041.png Graphic file (type png)
 <use animation_frames/frame-041.png>
-Package pdftex.def Info: animation_frames/frame-041.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-041.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-041.png> <a0,fr41>
-<animation_frames/frame-042.png, id=879, 481.8pt x 481.8pt>
+<animation_frames/frame-042.png, id=873, 481.8pt x 481.8pt>
 File: animation_frames/frame-042.png Graphic file (type png)
 <use animation_frames/frame-042.png>
-Package pdftex.def Info: animation_frames/frame-042.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-042.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-042.png> <a0,fr42>
-<animation_frames/frame-043.png, id=883, 481.8pt x 481.8pt>
+<animation_frames/frame-043.png, id=877, 481.8pt x 481.8pt>
 File: animation_frames/frame-043.png Graphic file (type png)
 <use animation_frames/frame-043.png>
-Package pdftex.def Info: animation_frames/frame-043.png  used on input line 492.
+Package pdftex.def Info: animation_frames/frame-043.png  used on input line 545.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./animation_frames/frame-043.png> <a0,fr43>
 File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
-Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 492.
-(pdftex.def)             Requested size: 63.0pt x 31.48962pt.
- [14
-
-]
-File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
-<use images/Logo_Swinburne_Landscape.png>
-Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 521.
-(pdftex.def)             Requested size: 63.0pt x 31.48962pt.
-File: images/uml_state_diagram.png Graphic file (type png)
-<use images/uml_state_diagram.png>
-Package pdftex.def Info: images/uml_state_diagram.png  used on input line 521.
-(pdftex.def)             Requested size: 145.51431pt x 76.65628pt.
-File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
-<use images/Logo_Swinburne_Landscape.png>
-Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 521.
+Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 545.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
  [15
 
 ]
+
+/home/abdvswmdr/Documents/fyp_nav/assets/Starkville_beamer_theme/example_presentation.tex:546: LaTeX Error: \begin{document} ended by \end{comment}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.546 \end{comment}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
-Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 546.
+Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 574.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
-<images/uml_composite_structure_saved.png, id=1019, 536.2434pt x 470.4777pt>
+File: images/uml_state_diagram.png Graphic file (type png)
+<use images/uml_state_diagram.png>
+Package pdftex.def Info: images/uml_state_diagram.png  used on input line 574.
+(pdftex.def)             Requested size: 145.51431pt x 76.65628pt.
+File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
+<use images/Logo_Swinburne_Landscape.png>
+Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 574.
+(pdftex.def)             Requested size: 63.0pt x 31.48962pt.
+[16
+
+]
+File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
+<use images/Logo_Swinburne_Landscape.png>
+Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 599.
+(pdftex.def)             Requested size: 63.0pt x 31.48962pt.
+<images/uml_composite_structure_saved.png, id=1015, 536.2434pt x 470.4777pt>
 File: images/uml_composite_structure_saved.png Graphic file (type png)
 <use images/uml_composite_structure_saved.png>
-Package pdftex.def Info: images/uml_composite_structure_saved.png  used on input line 546.
+Package pdftex.def Info: images/uml_composite_structure_saved.png  used on input line 599.
 (pdftex.def)             Requested size: 181.89568pt x 159.58699pt.
 File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
-Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 546.
+Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 599.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
- [16
+ [17
 
  <./images/uml_composite_structure_saved.png>]
 File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
-Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 554.
+Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 607.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
 File: images/uml_event_flow.png Graphic file (type png)
 <use images/uml_event_flow.png>
-Package pdftex.def Info: images/uml_event_flow.png  used on input line 554.
+Package pdftex.def Info: images/uml_event_flow.png  used on input line 607.
 (pdftex.def)             Requested size: 181.89568pt x 138.44153pt.
 File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
-Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 554.
+Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 607.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
- [17
+ [18
 
 ]
 File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
-Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 578.
+Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 633.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
-<images/nav_feedback_waypoints.png, id=1114, 524.6802pt x 319.4334pt>
+<images/nav_feedback_waypoints.png, id=1112, 524.6802pt x 319.4334pt>
 File: images/nav_feedback_waypoints.png Graphic file (type png)
 <use images/nav_feedback_waypoints.png>
-Package pdftex.def Info: images/nav_feedback_waypoints.png  used on input line 578.
+Package pdftex.def Info: images/nav_feedback_waypoints.png  used on input line 633.
 (pdftex.def)             Requested size: 72.75716pt x 44.29144pt.
 File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
-Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 578.
+Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 633.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
- [18
+ [19
 
  <./images/nav_feedback_waypoints.png>]
 File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
-Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 598.
+Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 653.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
 File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
-Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 598.
+Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 653.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
- [19
+ [20
 
 ]
 File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
-Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 606.
+Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 661.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
-<images/joystick_control.png, id=1230, 283.2984pt x 268.8444pt>
+<images/joystick_control.png, id=1231, 283.2984pt x 268.8444pt>
 File: images/joystick_control.png Graphic file (type png)
 <use images/joystick_control.png>
-Package pdftex.def Info: images/joystick_control.png  used on input line 606.
+Package pdftex.def Info: images/joystick_control.png  used on input line 661.
 (pdftex.def)             Requested size: 109.1385pt x 103.569pt.
 File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
-Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 606.
+Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 661.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
- [20
+ [21
 
  <./images/joystick_control.png>]
 File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
-Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 627.
+Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 682.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
 File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
-Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 627.
+Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 682.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
- [21
+ [22
 
 ]
 File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
-Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 655.
+Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 710.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
-<images/mapclick_flowchart.png, id=1326, 437.2335pt x 365.6862pt>
+<images/mapclick_flowchart.png, id=1330, 437.2335pt x 365.6862pt>
 File: images/mapclick_flowchart.png Graphic file (type png)
 <use images/mapclick_flowchart.png>
-Package pdftex.def Info: images/mapclick_flowchart.png  used on input line 655.
+Package pdftex.def Info: images/mapclick_flowchart.png  used on input line 710.
 (pdftex.def)             Requested size: 145.51431pt x 121.70352pt.
 File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
-Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 655.
+Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 710.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
- [22
+ [23
 
  <./images/mapclick_flowchart.png>]
 File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
-Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 683.
+Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 738.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
 File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
-Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 683.
-(pdftex.def)             Requested size: 63.0pt x 31.48962pt.
- [23
-
-]
-File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
-<use images/Logo_Swinburne_Landscape.png>
-Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 710.
-(pdftex.def)             Requested size: 63.0pt x 31.48962pt.
-File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
-<use images/Logo_Swinburne_Landscape.png>
-Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 710.
+Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 738.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
  [24
 
 ]
 File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
-Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 718.
+Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 765.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
 File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
 <use images/Logo_Swinburne_Landscape.png>
-Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 718.
+Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 765.
 (pdftex.def)             Requested size: 63.0pt x 31.48962pt.
  [25
+
+]
+File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
+<use images/Logo_Swinburne_Landscape.png>
+Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 773.
+(pdftex.def)             Requested size: 63.0pt x 31.48962pt.
+File: images/Logo_Swinburne_Landscape.png Graphic file (type png)
+<use images/Logo_Swinburne_Landscape.png>
+Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line 773.
+(pdftex.def)             Requested size: 63.0pt x 31.48962pt.
+ [26
 
 ]
 \tf@nav=\write6
@@ -1453,27 +1498,39 @@ Package pdftex.def Info: images/Logo_Swinburne_Landscape.png  used on input line
 \tf@snm=\write8
 \openout8 = `example_presentation.snm'.
 
- (./example_presentation.aux)
+
+
+LaTeX Warning: Hook 'shipout/lastpage' executed on wrong page (1 not 26).
+               Rerun to correct this.
+
+(./example_presentation.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-Package rerunfilecheck Info: File `example_presentation.out' has not changed.
-(rerunfilecheck)             Checksum: 0535B3733D391038D42846780C3A8BCF;1731.
+
+
+Package rerunfilecheck Warning: File `example_presentation.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `example_presentation.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  592A9020EFC681EFF1C6BB7F9141E07B;1910.
  ) 
 Here is how much of TeX's memory you used:
- 25673 strings out of 474222
- 510615 string characters out of 5748733
+ 25635 strings out of 474222
+ 509547 string characters out of 5748733
  1950975 words of memory out of 5000000
- 47341 multiletter control sequences out of 15000+600000
+ 47306 multiletter control sequences out of 15000+600000
  603513 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,20n,123p,2506b,897s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,20n,123p,2506b,902s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on example_presentation.pdf (25 pages, 9441793 bytes).
+Output written on example_presentation.pdf (26 pages, 9443275 bytes).
 PDF statistics:
- 1589 PDF objects out of 1728 (max. 8388607)
- 1292 compressed objects within 13 object streams
- 65 named destinations out of 1000 (max. 500000)
- 1103 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1599 PDF objects out of 1728 (max. 8388607)
+ 1301 compressed objects within 14 object streams
+ 68 named destinations out of 1000 (max. 500000)
+ 981 words of extra memory for PDF output out of 10000 (max. 10000000)
 
